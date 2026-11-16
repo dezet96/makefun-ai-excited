@@ -6,6 +6,10 @@
 
 A colossal bioluminescent whale soaring through a night sky lit by green and violet auroras, glowing cyan and magenta patterns rippling across its body, while a tiny human watches in awe from a dark cliff far below. Wonder, scale, and light — the moment the impossible feels real.
 
+## How it works
+
+The program validates the bundled image first (PNG magic bytes, at most 1 MiB), copies it to the output directory as `entry.png`, then reads both files back to verify the copy is byte-for-byte identical — so every run produces exactly the same image.
+
 ## Run it
 
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
