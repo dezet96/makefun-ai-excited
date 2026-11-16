@@ -19,7 +19,8 @@ def main() -> int:
     with open(src, "rb") as f:
         header = f.read(len(PNG_MAGIC))
     if header != PNG_MAGIC:
-        print("error: bundled entry.png is not a PNG image", file=sys.stderr)
+        print(f"error: bundled entry.png is not a PNG image "
+              f"(first bytes: {header!r})", file=sys.stderr)
         return 1
     size = os.path.getsize(src)
     if size > MAX_BYTES:
@@ -32,6 +33,8 @@ def main() -> int:
     # byte-for-byte identical on every run, so the program is deterministic.
     dst = os.path.join(out_dir, "entry.png")
     shutil.copyfile(src, dst)
+    # Verify the copy byte-for-byte: the competition requires two runs
+    # to produce identical output, and only an exact copy guarantees it.
     with open(src, "rb") as f:
         source_bytes = f.read()
     with open(dst, "rb") as f:

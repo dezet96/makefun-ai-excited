@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/ai-excited-01/dezet96/makefun-ai-excited/rank.svg)](https://make.fun/bounty/ai-excited-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
 [![reward](https://make.fun/badge/ai-excited-01/dezet96/makefun-ai-excited/reward.svg)](https://make.fun/bounty/ai-excited-01?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
 
-A colossal bioluminescent whale soaring through a night sky lit by green and violet auroras, glowing cyan and magenta patterns rippling across its body, while a tiny human watches in awe from a dark cliff far below. Wonder, scale, and light — the moment the impossible feels real.
+A colossal bioluminescent whale rises diagonally through a night sky of swirling green and violet aurora ribbons, glowing cyan and magenta lines rippling across its dark body like neon veins, while a lone cloaked figure watches in awe from a rocky cliff far below. Wonder, scale, and light — the moment the impossible feels real.
 
 ## How it works
 
